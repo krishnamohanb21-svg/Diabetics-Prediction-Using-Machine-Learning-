@@ -11,7 +11,7 @@ Visual Blurring, Itching, Irritability, Delayed Healing, Partial Paresis, Muscle
 Target variable: Class (diabetic or non-diabetic)
 
 
-# Proposed System of Diabetics Prediction Using Machine Learning<
+# Proposed System of Diabetics Prediction Using Machine Learning
 The system will predict whether a patient will have diabetes or not based on the features mentioned in the dataset, including Age, Gender, Polyuria, Polydipsia, etc. The solution will include collecting data, preprocessing it, training machine learning algorithms, deploying the model, and measuring its performance.1. 
 
 # 1.Data Collection
@@ -54,27 +54,29 @@ K-Nearest Neighbors (KNN): A non-parametric algorithm that classifies by proximi
 
 # 4. Deployment
 After you have trained a model that works well, you can deploy it in a real-world application.
-User Interface: Design a web interface where users can enter their details (e.g., Age, Gender, Polyuria, Polydipsia sudden weight loss weakness Polyphagia Genital thrush visual blurring Itching Irritability delayed healing partial paresis muscle stiffness Alopecia Obesity etc.) to predict if they have diabetes.
+User Interface: Design a web interface where users can enter their details (e.g., Age, Gender, Polyuria, Polydipsia sudden weight loss weakness Polyphagia Genital thrush visual blurring Itching Irritability delayed healing partial paresis muscle stiffness Alopecia Obesity etc.) to predict if they have diabetes.
 Use Flask for designing the web interface.
 The app will accept the user input, feed it into the model, and output a prediction (e.g., diabetes risk = "Yes" or "No").
 
 # 5. Evaluation
 Once deployed, continuously evaluate the performance of the model. Use metrics such as:
-Accuracy: It measures the ratio of correct predictions.
-Precision: It measures how many of the predicted positive cases (diabetic) are indeed positive.
-Recall: It measures how many actual positive cases were picked up by the model.
-F1 Score: Harmonic mean of precision and recall.
+Accuracy: It measures the ratio of correct predictions.
+Precision: It measures how many of the predicted positive cases (diabetic) are indeed positive.
+Recall: It measures how many actual positive cases were picked up by the model.
+F1 Score: Harmonic mean of precision and recall.
 
 # 6. Result
 The last output is a system that predicts whether an individual is likely to have diabetes given their clinical features. The deployed system enables the user to feed in their details and receive real-time prediction for their risk of diabetes.
 
 # System Requirements 
-HARDWARE REQUIREMENTS :The hardware requirements for running this website and model  are:
+HARDWARE REQUIREMENTS :
+The hardware requirements for running this website and model  are:
 RAM – 8.00 GB
 Operating System – Windows 11 
 Processor – Intel(R) Core(TM) i3-1115g4
 Processor speed – 3.00 GHz
-SOFTWARE REQUIREMENTS: The programming language used to develop this application is Python and the IDE used is Jupyter Notebook. Front end is made using HTML and is integrated with  flask.
+SOFTWARE REQUIREMENTS: 
+The programming language used to develop this application is Python and the IDE used is Jupyter Notebook. Front end is made using HTML and is integrated with  flask.
 Programming Language – Python
 Python IDE – Jupyter Notebook
 Python Libraries: Flask
